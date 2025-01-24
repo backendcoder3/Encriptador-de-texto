@@ -1,0 +1,62 @@
+:root{
+    --color-primero: #E5E5E5;
+}
+
+/*
+* {
+    padding: 40px;
+}
+*/
+
+body {
+    background-color: var(--color-primero);
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-section-encriptar {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.main-section-img {
+    width: 120px;
+    height: 48px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.main-section-encriptador{
+    display: flex;
+    flex-direction: column;
+    margin-top: 148px;
+}
+
+.main-input-text {
+    width: 577px;
+    height: 48px;
+    padding: 0px;
+    background-color: var(--color-primero);
+    border: none;
+}
+
+.main-section-article {
+    display: flex;
+    
+}
+
+.main-section-desencriptador{
+    display: flex;
+    background-color: white;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;    
+}
