@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --color-primero: #E5E5E5;
 }
@@ -18,22 +20,18 @@ main{
     justify-content: space-between;
 }
 
-.main-section-encriptar {
+.main-section-img {
+    display: block;
+    justify-content: space-around;
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+}
+
+.main-section-encriptador {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-}
-
-.main-section-img {
-    width: 120px;
-    height: 48px;
-    padding-top: 40px;
-    padding-left: 40px;
-}
-
-.main-section-encriptador{
-    display: flex;
-    flex-direction: column;
     margin-top: 148px;
 }
 
@@ -43,20 +41,107 @@ main{
     padding: 0px;
     background-color: var(--color-primero);
     border: none;
+    font-size: 32px;
+    color: darkblue;
 }
 
-.main-section-article {
+.main-section-encriptador-dev {
     display: flex;
-    
+    flex-direction: row;
+    margin-top: 668px;
+    gap: 24px;
+}
+
+.main-section-encriptador-botones-1, .main-section-encriptador-botones-2 {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    border: 1px;
+    padding: 24px;
+    font-size: 16px;
+}
+
+.main-section-encriptador-botones-1, .main-section-encriptador-botones-2, .main-input-text {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main-section-encriptador-botones-1 {
+    background-color: darkblue;
+    color: white;
+}
+
+.main-section-encriptador-botones-2 {
+    background-color: #D8DFE8;
+    color: darkblue;
+    border: 1px solid darkblue;
 }
 
 .main-section-desencriptador{
     display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
     background-color: white;
     width: 400px;
     height: 944px;
     border-radius: 32px;
     margin-top: 40px;
-    margin-right: 40px;
-    margin-bottom: 40px;    
+    margin-right: 40px;  
+}
+
+.main-section-desencriptador-img {
+    margin-top: 243px;
+    margin-left: 32px;
+    margin-right: 32px;
+    width: 336px;
+    height: 304px;
+}
+
+.main-section-desencriptador-dev {
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    margin: 32px;
+}
+
+.main-section-desencriptador-dev-text {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+    gap: 16px;
+}
+
+.main-section-desencriptador-dev-text-2 {
+    color: gray;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: darkblue;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 40px;
+    gap: 10px;
+    border-radius: 32px;
+}
+
+.footer-p {
+    color: white;
+}
+
+strong {
+    color: var(--color-primero);
 }
