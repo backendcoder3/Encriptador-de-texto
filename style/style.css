@@ -157,3 +157,79 @@ footer {
 strong {
     color: var(--color-primero);
 }
+/* General Improvements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Flexbox para diseños más fluidos */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Inputs y botones con tamaños relativos */
+.main-input-text {
+    width: 80%; /* Ajustable según el contenedor */
+    max-width: 600px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.main-section-encriptador-botones-1,
+.main-section-encriptador-botones-2 {
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.main-section-encriptador-botones-1:hover,
+.main-section-encriptador-botones-2:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Mejoras visuales para secciones */
+.main-section-desencriptador {
+    flex: 1 1 300px; /* Adaptable con flex-grow */
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-section-desencriptador-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Footer flexible */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Ajustes generales para elementos */
+button {
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+/* Transiciones suaves para interacciones */
+button, input {
+    transition: all 0.3s ease;
+}
