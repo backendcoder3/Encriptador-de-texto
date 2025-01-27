@@ -233,3 +233,45 @@ button {
 button, input {
     transition: all 0.3s ease;
 }
+
+/* Media Queries para dispositivos móviles */
+@media screen and (max-width: 768px) {
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .main-input-text {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .main-section-encriptador-dev {
+        display: flex;
+        flex-direction: column;
+        margin: 285px 16px 64px 16px;
+    }
+
+    .main-section-desencriptador-img {
+        display: none; /* Oculta únicamente la imagen */
+    }
+
+    .main-section-encriptador-botones-1, 
+    .main-section-encriptador-botones-2 {
+        width: 90%;
+        font-size: 0.9rem;
+    }
+
+    .main-section-desencriptador {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+}
